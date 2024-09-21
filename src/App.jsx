@@ -22,12 +22,14 @@
 
 import './App.css';
 import Hero from './LandingPageComponents/Hero';
+import Services from './LandingPageComponents/Services';
 
 function App() {
   return (
     <div className='m-auto max-w-screen-2xl px-4'> {/* Adjusted container */}
       {/* Hero Section */}
       <Hero />
+      <Services></Services>
     </div>
   );
 }
