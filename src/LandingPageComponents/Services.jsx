@@ -4,7 +4,7 @@ import selection from '../assets/best-selection.png'
 
 const Services = () => {
     return (
-        <div className='flex justify-evenly items-center px-auto mt-24'>
+        <div className='flex justify-evenly flex-wrap items-center px-auto mt-24'>
             <div className='1/3'>
                 <img className='rounded-full w-36 h-36' src={profit} alt="" />
                 <h2 className='text-2xl font-bold mt-6'>Higher Profits</h2>
