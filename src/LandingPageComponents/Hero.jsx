@@ -101,10 +101,10 @@ const Hero = () => {
     };
 
     return (
-        <div className='flex justify-between items-center mx-auto ml-16'>
+        <div className='lg:flex justify-between items-center mx-auto ml-16 gap-4'>
             {/* text part */}
             <div className='w-11/12'>
-                <h1 className='text-6xl font-semibold'>Create and sell custom products</h1>
+                <h1 className='text-6xl font-semibold py-6'>Create and sell custom products</h1>
                 <div className='flex items-center'>
                     <IoCheckmarkOutline className='text-green-600 text-3xl font-extrabold' />
                     <p>100% Free to use</p>
@@ -137,7 +137,7 @@ const Hero = () => {
             </div>
 
             {/* animation part - KEEP THIS UNCHANGED */}
-            <div>
+            <div className='mt-5'>
                 <video
                     className=''
                     src={vid}
