@@ -41,7 +41,7 @@ const TshirtCarousel = () => {
   }, []);
 
   return (
-    <div className="relative w-full overflow-hidden lg:hidden mt-96">
+    <div className="relative w-full overflow-hidden lg:hidden mt-96 pb-10">
       {/* Slides */}
       <div
         className="flex transition-transform duration-700 ease-in-out"

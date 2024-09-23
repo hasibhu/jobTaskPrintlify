@@ -1,0 +1,44 @@
+.icon-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.main-icon {
+  font-size: 50px;
+  transition: transform 0.3s;
+}
+
+.icons {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s;
+  opacity: 0; /* Initially hidden */
+}
+
+.icons.spread {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  opacity: 1; /* Show when spread */
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  opacity: 0; /* Initially hidden */
+  transform: scale(0); /* Initially scaled down */
+}
+
+.icon.active {
+  opacity: 1; /* Show when spread */
+  transform: scale(1); /* Scale to original size */
+}

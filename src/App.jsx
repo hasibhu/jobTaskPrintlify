@@ -10,6 +10,8 @@ import TshirtCarousel from './LandingPageComponents/TshirtCarousel';
 import TshirtPart from './LandingPageComponents/TshirtPart';
 import ImportantLinks from './LandingPageComponents/ImportantLinks';
 import Footer from './LandingPageComponents/Footer';
+import Calculation from './LandingPageComponents/Calculation';
+import ConnectStore from './LandingPageComponents/ConnectStore';
 
 function App() {
   return (
@@ -20,8 +22,12 @@ function App() {
       <Hero />
       <Services></Services>
       <AllProducts></AllProducts>
-      <TshirtPart></TshirtPart>
-      <TshirtCarousel></TshirtCarousel>
+      
+        <TshirtPart></TshirtPart>
+        
+        <TshirtCarousel></TshirtCarousel>
+        <ConnectStore></ConnectStore>
+        <Calculation></Calculation>
       <ImportantLinks></ImportantLinks>
     </div>
       <Footer></Footer>
