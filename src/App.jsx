@@ -12,6 +12,7 @@ import ImportantLinks from './LandingPageComponents/ImportantLinks';
 import Footer from './LandingPageComponents/Footer';
 import Calculation from './LandingPageComponents/Calculation';
 import ConnectStore from './LandingPageComponents/ConnectStore';
+import TrustedBy from './LandingPageComponents/TrustedBy';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
         <TshirtPart></TshirtPart>
         
         <TshirtCarousel></TshirtCarousel>
-        <ConnectStore></ConnectStore>
+        {/* <ConnectStore></ConnectStore> */}
+        <TrustedBy></TrustedBy>
         <Calculation></Calculation>
       <ImportantLinks></ImportantLinks>
     </div>
