@@ -25,6 +25,8 @@ import AllProducts from './LandingPageComponents/AllProducts';
 import Hero from './LandingPageComponents/Hero';
 import Navbar from './LandingPageComponents/Navbar';
 import Services from './LandingPageComponents/Services';
+import TshirtCarousel from './LandingPageComponents/TshirtCarousel';
+import TshirtPart from './LandingPageComponents/TshirtPart';
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
       <Hero />
       <Services></Services>
       <AllProducts></AllProducts>
+      <TshirtPart></TshirtPart>
+      <TshirtCarousel></TshirtCarousel>
     </div>
   );
 }
